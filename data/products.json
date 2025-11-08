@@ -1,10 +1,23 @@
 [
-  { "id": "d1", "title": "Aria Koltuk", "category": "Koltuk", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop" },
-  { "id": "d2", "title": "Nero Sehpa", "category": "Sehpa", "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1200&auto=format&fit=crop" },
-  { "id": "d3", "title": "Alto Koltuk", "category": "Koltuk", "image": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?q=80&w=1200&auto=format&fit=crop" },
-  { "id": "d4", "title": "Vera Sehpa", "category": "Sehpa", "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop" },
-  { "id": "d5", "title": "Linea Köşe", "category": "Koltuk", "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" },
-  { "id": "d7", "title": "Massa Yemek Masası", "category": "Yemek Masası", "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1600&auto=format&fit=crop" }
+  {
+    "id": "q402vne",
+    "title": "Paris Koltuk Takımı",
+    "category": "Koltuk",
+    "image": "https://cdn.discordapp.com/attachments/1268705495779377236/1436726233416073348/WhatsApp_Gorsel_2025-11-08_saat_16.50.13_cb245556.jpg?ex=6910a713&is=690f5593&hm=6661718a490ddefbcd1c674aee9231f1c787f31a4e76ef1289686596a3b1bbfc&",
+    "description": ""
+  },
+  {
+    "id": "c49q86g",
+    "title": "Locca Koltuk Takımı",
+    "category": "Koltuk",
+    "image": "https://cdn.discordapp.com/attachments/1268705495779377236/1436726122070016111/WhatsApp_Gorsel_2025-11-08_saat_16.50.13_a62fa6ff.jpg?ex=6910a6f8&is=690f5578&hm=200b9e858633986c2a0bf61d2688a75edd20913022ad51bcb6b1c4b5890efd4c&",
+    "description": ""
+  },
+  {
+    "id": "bgoqeee",
+    "title": "Lila Yemek Masası",
+    "category": "Yemek Masası",
+    "image": "https://cdn.discordapp.com/attachments/1268705495779377236/1436724040046870669/WhatsApp_Gorsel_2025-11-08_saat_16.50.13_550ba6f7.jpg?ex=6910a508&is=690f5388&hm=3cfeb30d19364c67ef7a47acd78dc21b2e941c1efbd9997f39bc9b812586210c&",
+    "description": "Doğal ahşap tonlarıyla sıcak bir atmosfer yaratan Lila Yemek Masası, zarif çizgileri ve konforlu sandalyeleriyle modern yaşam alanlarının vazgeçilmezi.\nYumuşak dokulu kumaşı ve zarif detaylarıyla her öğünü keyifli bir deneyime dönüştürür.\nEstetik, sade ve her döneme uyumlu bir tasarım…"
+  }
 ]
-
-

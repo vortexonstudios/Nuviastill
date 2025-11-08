@@ -1,7 +1,17 @@
 [
-  { "id": "c1", "name": "Koltuk", "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=1200&auto=format&fit=crop" },
-  { "id": "c2", "name": "Sehpa", "image": "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=1200&auto=format&fit=crop" },
-  { "id": "c3", "name": "Yemek Masası", "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?q=80&w=1200&auto=format&fit=crop" }
+  {
+    "id": "c1",
+    "name": "Koltuk",
+    "image": "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": "c2",
+    "name": "Sehpa",
+    "image": "https://cdn.discordapp.com/attachments/1268705495779377236/1436728899844178051/content.png?ex=6910a98e&is=690f580e&hm=06164399d3e5119e0249bd407a02353403a447554d671c532bf93691f81d9f44&"
+  },
+  {
+    "id": "c3",
+    "name": "Yemek Masası",
+    "image": "https://cdn.discordapp.com/attachments/1268705495779377236/1436728613608100013/WhatsApp_Gorsel_2025-11-08_saat_16.50.13_424e529d.jpg?ex=6910a94a&is=690f57ca&hm=28ef933444e255a1393253d1126e253ca14658d4a3427761d3cf494ecbeb610e&"
+  }
 ]
-
-
