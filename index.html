@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nuvia Still</title>
+		<meta name="description" content="Nuvia Still — zamansız, sofistike mobilya tasarımları.">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles.css">
+	</head>
+	<body>
+		<div class="scroll-progress" aria-hidden="true"></div>
+		<header class="site-header">
+			<div class="container nav">
+				<div class="brand">Nuvia <span>Still</span></div>
+				<button class="nav-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
+					<span></span><span></span><span></span>
+				</button>
+				<nav class="nav-links" aria-label="Ana menü">
+					<a href="#kategoriler">Kategoriler</a>
+					<a href="#urunler">Ürünler</a>
+					<a href="#hakkimizda">Hakkımızda</a>
+					<a href="#iletisim">İletişim</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="hero" class="hero hero-classic" aria-labelledby="hero-title">
+				<h1 id="hero-title" class="headline reveal"><span>Nuvia</span> Still</h1>
+				<p class="tagline reveal">Zamansız tasarımlar, modern yaşam alanları için.</p>
+				<a href="#urunler" class="cta reveal">Ürünleri Gör</a>
+			</section>
+
+			<section id="kategoriler" class="categories" aria-label="Kategoriler">
+				<h2 class="section-title reveal">Kategoriler</h2>
+				<div class="categories-grid" id="categoriesGrid"></div>
+			</section>
+
+			<section id="urunler" class="products" aria-label="Öne çıkan ürünler">
+				<h2 class="section-title reveal">Öne Çıkan Ürünler</h2>
+				<div class="product-filters" id="productFilters" role="tablist" aria-label="Kategori filtreleri"></div>
+				<div class="products-grid" id="productsGrid"></div>
+			</section>
+
+			<section id="hakkimizda" class="about" aria-labelledby="about-title">
+				<h2 id="about-title" class="section-title reveal">Hakkımızda</h2>
+				<p class="about-text reveal">Zarafetin, konforun ve modern tasarımın buluşma noktası.
+					Nuvia Still, yaşam alanlarınıza estetik bir dokunuş kazandırmak için doğallıktan ilham alır.
+					Her detayda kaliteyi, her çizgide sadeliği hissedin.
+					Evinizin her köşesinde sıcak, samimi ve özgün bir atmosfer yaratmak için buradayız.
+					
+					Nuvia Still — Stil, konfor ve zarafet bir arada.</p>
+			</section>
+
+			<section id="iletisim" class="contact" aria-labelledby="contact-title">
+				<h2 id="contact-title" class="section-title reveal">İletişim</h2>
+				<ul class="contact-list">
+					<li class="reveal">WhatsApp: <a href="https://wa.me/905465330816" target="_blank" rel="noopener">Mesaj Gönder</a></li>
+					<li class="reveal">Adres: Mahmudiye mah. 18. Mob. Sok. No 9/B, İnegöl/Bursa</li>
+				</ul>
+				<div class="map-embed reveal" aria-label="Mağaza konumu haritası">
+					<iframe
+						title="Nuvia Still — Mağaza Konumu"
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+						src="https://www.google.com/maps?q=Mahmudiye%20mah.%2018.%20Mob.%20Sok.%20No%209%2FB%20Bursa%20%C4%B0neg%C3%B6l&output=embed">
+					</iframe>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<small>© <span id="yil"></span> Nuvia Still</small>
+		</footer>
+
+		<!-- Floating contact -->
+		<div class="floating-contact" role="group" aria-label="Hızlı iletişim">
+			<a class="fc-btn wa" href="https://wa.me/905465330816" target="_blank" rel="noopener" aria-label="WhatsApp mesaj">WhatsApp</a>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
+
+

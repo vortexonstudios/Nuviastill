@@ -1,0 +1,10 @@
+[
+  { "id": "d1", "title": "Aria Koltuk", "category": "Koltuk", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop" },
+  { "id": "d2", "title": "Nero Sehpa", "category": "Sehpa", "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1200&auto=format&fit=crop" },
+  { "id": "d3", "title": "Alto Koltuk", "category": "Koltuk", "image": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?q=80&w=1200&auto=format&fit=crop" },
+  { "id": "d4", "title": "Vera Sehpa", "category": "Sehpa", "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop" },
+  { "id": "d5", "title": "Linea Köşe", "category": "Koltuk", "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" },
+  { "id": "d7", "title": "Massa Yemek Masası", "category": "Yemek Masası", "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1600&auto=format&fit=crop" }
+]
+
+

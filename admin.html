@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nuvia Still — Admin</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles.css">
+		<link rel="stylesheet" href="./admin.css">
+	</head>
+	<body class="admin-body">
+		<main class="admin-wrap">
+			<header class="admin-header">
+				<h1 class="admin-title">Nuvia <span>Still</span> Admin</h1>
+				<div class="admin-actions">
+					<button id="exportBtn" class="btn">Dışa Aktar</button>
+					<label class="import-label btn outline">
+						İçe Aktar JSON
+						<input id="importInput" type="file" accept="application/json" hidden>
+					</label>
+					<a class="btn outline" href="./index.html" target="_blank" rel="noopener">Siteyi Aç</a>
+				</div>
+			</header>
+
+			<section class="admin-login" id="adminLogin">
+				<div class="login-card">
+					<h2>Giriş</h2>
+					<p class="muted">Demo amaçlı basit bir koruma. Güvenlik için gerçek sunucu önerilir.</p>
+					<label class="field">
+						<span>Parola</span>
+						<input id="passwordInput" type="password" placeholder="Parola: nuvia">
+					</label>
+					<button id="loginBtn" class="btn">Giriş Yap</button>
+					<p id="loginError" class="error" hidden>Hatalı parola.</p>
+				</div>
+			</section>
+
+			<section class="admin-panel" id="adminPanel" hidden>
+				<section class="card">
+					<h2>Hero Ayarları</h2>
+					<label class="field">
+						<span>Hero Görsel URL</span>
+						<input id="heroImage" placeholder="https://...">
+					</label>
+					<div class="form-actions">
+						<button id="heroSave" class="btn">Kaydet</button>
+					</div>
+					<p class="muted">Ana sayfadaki büyük kapak görseli burada değişir.</p>
+				</section>
+
+				<section class="card">
+					<h2>Kategoriler</h2>
+					<form id="catForm" class="grid">
+						<label class="field">
+							<span>İsim</span>
+							<input id="catName" required placeholder="Örn: Koltuk">
+						</label>
+						<label class="field">
+							<span>Görsel URL</span>
+							<input id="catImage" required placeholder="https://...">
+						</label>
+						<input type="hidden" id="catId">
+						<div class="form-actions">
+							<button class="btn" id="catSave" type="submit">Kaydet</button>
+							<button class="btn outline" id="catReset" type="button">Temizle</button>
+						</div>
+					</form>
+					<table class="list" id="catsTable" aria-label="Kategoriler">
+						<thead><tr><th>İsim</th><th>Görsel</th><th style="width:140px">İşlem</th></tr></thead>
+						<tbody></tbody>
+					</table>
+				</section>
+
+				<form id="productForm" class="card">
+					<h2>Ürün Ekle/Düzenle</h2>
+					<div class="grid">
+						<label class="field">
+							<span>Başlık</span>
+							<input id="title" required placeholder="Örn: Aria Koltuk">
+						</label>
+						<label class="field">
+							<span>Kategori</span>
+							<select id="category" required></select>
+						</label>
+						<label class="field">
+							<span>Görsel URL</span>
+							<input id="image" required placeholder="https://...">
+						</label>
+					</div>
+					<label class="field">
+						<span>Açıklama (opsiyonel)</span>
+						<textarea id="description" rows="3" placeholder="Kısa açıklama"></textarea>
+					</label>
+					<div class="form-actions">
+						<button type="submit" class="btn" id="saveBtn">Kaydet</button>
+						<button type="button" class="btn outline" id="resetBtn">Formu Temizle</button>
+					</div>
+					<input type="hidden" id="editId">
+				</form>
+
+				<section class="card">
+					<h2>Ürünler</h2>
+					<div id="emptyState" class="muted" hidden>Henüz ürün yok. Yukarıdan ekleyin.</div>
+					<table class="list" id="productsTable" aria-label="Ürün listesi">
+						<thead>
+							<tr>
+								<th>Başlık</th>
+								<th>Kategori</th>
+								<th>Görsel</th>
+								<th style="width:140px">İşlem</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</section>
+			</section>
+		</main>
+
+		<script src="./admin.js"></script>
+	</body>
+	</html>
+
+
